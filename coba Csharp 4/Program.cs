@@ -10,8 +10,23 @@ namespace coba_Csharp_4
     {
         static void Main(string[] args)
         {
-            manusia ahmad = new manusia();
-            ahmad.sayHi();
+            mobil Daihatsu = new mobil();
+            Daihatsu.klakson();
+            Daihatsu.jenis = "Xenia";
+            Daihatsu.warna = "Hitam";
+            Daihatsu.kecepatan = 50;
+            Console.WriteLine("mobil Daihatsu berjenis >> {0}", Daihatsu.jenis);
+            Console.WriteLine("mobil Daihatsu berwarna >> {0}", Daihatsu.warna);
+            Console.WriteLine("Kecepatan mobil Daihatsu adalah >> {0} km/jam", Daihatsu.kecepatan);
+
+            mobil toyota = new mobil();
+            toyota.klakson();
+            toyota.jenis = "Avanza";
+            toyota.warna = "Putih";
+            toyota.kecepatan = 40;
+            Console.WriteLine("mobil Toyota berjenis >> {0}", toyota.jenis);
+            Console.WriteLine("mobil Toyota berwarna >> {0}", toyota.warna);
+            Console.WriteLine("Kecepatan mobil Toyota adalah >> {0} km/jam", toyota.kecepatan);
         }
     }
 
