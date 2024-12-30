@@ -11,9 +11,19 @@ namespace coba_Csharp_4
         public string warna;
         public string jenis;
         public int kecepatan;
+        private int harga = 0;
         public void klakson()
         {
             Console.WriteLine("mberrr");
+        }
+        public int getHarga()
+        {
+            return harga;
+        }
+        public int setHarga(int hargaMobil) 
+        {
+            harga += hargaMobil;
+            return harga;
         }
     }
 }
