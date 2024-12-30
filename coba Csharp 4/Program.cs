@@ -35,11 +35,11 @@ namespace coba_Csharp_4
 
             // Penggunaan Get set 
             raja tunggul = new raja();
-            tunggul.Kekayaan = 1000000;
+            tunggul.Kekayaan = 1000000000;
             Console.WriteLine("mempunyai istri bernama >> {0}", tunggul.Istri);
             Console.WriteLine(tunggul.Kekayaan);
-
-
+            tunggul.luasWilayah = 100000;
+            Console.WriteLine("tunggul memiliki luas wilayah sebesar >> {0} KM", tunggul.luasWilayah);
 
 
 
